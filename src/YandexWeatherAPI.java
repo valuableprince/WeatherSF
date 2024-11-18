@@ -7,9 +7,9 @@ import java.net.URL;
 
 public class YandexWeatherAPI {
     public static void main(String[] args) {
-        String apiKey = "51b5a6ac-2058-4be4-bd69-295beab3e549";  // Замените на ваш ключ API
-        double lat = 55.75; // Широта (пример для Сиэтла)
-        double lon = 37.62; // Долгота (пример для Сиэтла)
+        String apiKey = "___";
+        double lat = 55.75; //
+        double lon = 37.62; //
         int limit = 3;  // Максимальное количество периодов прогноза для вычисления средней температуры
 
         try {
